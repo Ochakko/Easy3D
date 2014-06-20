@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="disp3">
+      <UniqueIdentifier>{e2ca0137-83e7-43c5-86b8-954bd701dbd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dxsdk">
+      <UniqueIdentifier>{750e767c-ef52-419a-ba60-8254ffc8aba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XAudio">
+      <UniqueIdentifier>{37d3602d-5810-48ae-acac-9126d1ba5f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kinect">
+      <UniqueIdentifier>{4f2c0fb6-2d42-409e-a86f-cf9cf2f84594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Panda">
+      <UniqueIdentifier>{773604d5-9efb-460a-a44d-3ac5080b43bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="easy3d.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="handlerset.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="HuSound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="IncludeManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="mysprite.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundBank.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundElem.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPrim.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\AlpChange.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\AlpKey.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\asmfunc.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\avidata.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\basedat.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\bbox.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\BBox2.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\bezmesh.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\bgdisp2.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\billboard.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\billboardelem.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\billboardIO.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\boneinfo.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\BoneProp.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\borderface.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\bsphere.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\BVHelem.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\byteorder.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\CameraAnim.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\CameraAnimHandler.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\CameraFile.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\CameraKey.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\CameraSWKey.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\Cpuid.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\d3ddisp.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\dbg.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\dibfile.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\DispSwitch.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\DSChange.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\DSKey.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\EventKey.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\ExtLine.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\ExtLineIO.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\ExtPoint.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\forbidid.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\gndfile.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\GPAnim.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\GPAnimHandler.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\GPData.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\GPFile.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\GPKey.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\groundbmp.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\grounddata.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\IM2File.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\InfElem.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\InfScope.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\lightdata.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\Line.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\LiSPSM.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\MAFile.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\matrix2.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\mcache.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\MCHandler.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\MMotElem.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\MMotKey.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\MOEAnim.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\MOEAnimHandler.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\MOEEHelper.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\MOEFile.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\MOEKey.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\morph.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\mothandler.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\motionctrl.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\motioninfo.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\motionpoint.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\motionpoint2.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\mqoface.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\mqofile.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\mqomaterial.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\mqoobject.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\MState.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\namebank.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\NaviLine.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\NaviPoint.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\npcleardata.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\part.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\PCoef.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\pickdata.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\planes.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\polymesh.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\polymesh2.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\qhandler.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\quafile.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\quaternion.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\quaternion2.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\Rtsc.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\shdelem.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\shdhandler.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\sigfile.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\SndAnim.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\SndAnimHandler.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\SndConv.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\SndFile.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\SndFrame.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\SndFullFrame.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\SndKey.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\SndPath.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\SndSetFile.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\SPParam.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\SymmOpe.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\texbank.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\TexChange.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\TexChangePt.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\TexKey.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\TexKeyPt.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\Toon1Params.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\treeelem2.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\treehandler2.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\Vec3List.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\vecmesh.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\XFont.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dapp.cpp">
+      <Filter>dxsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dfont.cpp">
+      <Filter>dxsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dutil.cpp">
+      <Filter>dxsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudioSource\MultiWave.cpp">
+      <Filter>XAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudioSource\XAudio.cpp">
+      <Filter>XAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudioSource\XAudioFadeEffect.cpp">
+      <Filter>XAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudioSource\XAudioVorbis.cpp">
+      <Filter>XAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudioSource\XAudioWave.cpp">
+      <Filter>XAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\AutoSpline.cpp">
+      <Filter>disp3</Filter>
+    </ClCompile>
+    <ClCompile Include="PluginKinect.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="rpsfile.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="TraQ.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="txtsetting.cpp">
+      <Filter>Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="PmCipher\blowfish.cpp">
+      <Filter>Panda</Filter>
+    </ClCompile>
+    <ClCompile Include="PmCipher\Panda.cpp">
+      <Filter>Panda</Filter>
+    </ClCompile>
+    <ClCompile Include="PmCipher\PmCipher.cpp">
+      <Filter>Panda</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="easy3d.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudioSource\audiocoef.h">
+      <Filter>XAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudioSource\MultiWave.h">
+      <Filter>XAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudioSource\SampleAPOBase.h">
+      <Filter>XAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudioSource\XAudio.h">
+      <Filter>XAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudioSource\XAudioFadeEffect.h">
+      <Filter>XAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudioSource\XAudioVorbis.h">
+      <Filter>XAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudioSource\XAudioWave.h">
+      <Filter>XAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="PmCipher\blowfish.h">
+      <Filter>Panda</Filter>
+    </ClInclude>
+    <ClInclude Include="PmCipher\Panda.h">
+      <Filter>Panda</Filter>
+    </ClInclude>
+    <ClInclude Include="PmCipher\PmCipher.h">
+      <Filter>Panda</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="e3dhsp.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dummy.qua" />
+    <None Include="ReadMe.txt" />
+    <None Include="..\..\..\disp3\FX\sigshaderb4_20.fxo" />
+    <None Include="..\..\..\disp3\fx\rcdata4.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="..\..\..\disp3\FX\sigshaderb4_20spot.fxo" />
+  </ItemGroup>
+</Project>

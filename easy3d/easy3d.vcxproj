@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{32BAC0D9-2A25-45F7-A7B1-F8767A2ADFA6}</ProjectGuid>
+    <RootNamespace>easy3d</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\Microsoft DirectX SDK (August 2009)\Include;C:\disp3\include;$(WindowsSdkDir)\common\include;C:\pgfile9\libogg-1.2.2\include;C:\pgfile9\libvorbis-1.3.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\Microsoft DirectX SDK (August 2009)\Lib\x86;$(WindowsSdkDir)\common\lib;C:\pgfile9\libogg-1.2.2\win32\VS2010\Win32\Release;C:\pgfile9\libvorbis-1.3.2\win32\VS2010\Win32\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\Microsoft DirectX SDK (August 2009)\Include;C:\disp3\include;$(WindowsSdkDir)\common\include;C:\pgfile9\libogg-1.2.2\include;C:\pgfile9\libvorbis-1.3.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\Microsoft DirectX SDK (August 2009)\Lib\x86;$(WindowsSdkDir)\common\lib;C:\pgfile9\libogg-1.2.2\win32\VS2010\Win32\Release;C:\pgfile9\libvorbis-1.3.2\win32\VS2010\Win32\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/D "INEASY3D" %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;EASY3D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>.\PmCipher;.\ZLIB\include;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>x3daudio.lib;libvorbisfile_static.lib;libvorbis_static.lib;libogg_static.lib;ddraw.lib;d3dx9.lib;d3d9.lib;dsound.lib;winmm.lib;d3dxof.lib;dxguid.lib;DxErr.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;comctl32.lib;vfw32.lib;strmiids.lib;zlib_static_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>.\ZLIB\lib;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/D "INEASY3D" %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;EASY3D_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <AdditionalIncludeDirectories>.\PmCipher;.\ZLIB\include;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>x3daudio.lib;libvorbisfile_static.lib;libvorbis_static.lib;libogg_static.lib;d3dx9.lib;d3d9.lib;winmm.lib;d3dxof.lib;dxguid.lib;DxErr.lib;dsound.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;comctl32.lib;vfw32.lib;strmiids.lib;zlib_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>.\ZLIB\lib;</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\disp3\CPP\AutoSpline.cpp" />
+    <ClCompile Include="easy3d.cpp" />
+    <ClCompile Include="handlerset.cpp" />
+    <ClCompile Include="HuSound.cpp" />
+    <ClCompile Include="IncludeManager.cpp" />
+    <ClCompile Include="mysprite.cpp" />
+    <ClCompile Include="PluginKinect.cpp" />
+    <ClCompile Include="PmCipher\blowfish.cpp" />
+    <ClCompile Include="PmCipher\Panda.cpp" />
+    <ClCompile Include="PmCipher\PmCipher.cpp" />
+    <ClCompile Include="rpsfile.cpp" />
+    <ClCompile Include="SoundBank.cpp" />
+    <ClCompile Include="SoundElem.cpp" />
+    <ClCompile Include="SoundPrim.cpp" />
+    <ClCompile Include="SoundSet.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\..\disp3\CPP\AlpChange.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\AlpKey.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\asmfunc.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\avidata.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\basedat.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\bbox.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\BBox2.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\bezmesh.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\bgdisp2.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\billboard.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\billboardelem.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\billboardIO.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\boneinfo.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\BoneProp.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\borderface.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\bsphere.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\BVHelem.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\byteorder.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\CameraAnim.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\CameraAnimHandler.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\CameraFile.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\CameraKey.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\CameraSWKey.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\Cpuid.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\d3ddisp.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\dbg.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\dibfile.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\DispSwitch.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\DSChange.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\DSKey.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\EventKey.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\ExtLine.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\ExtLineIO.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\ExtPoint.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\forbidid.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\gndfile.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\GPAnim.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\GPAnimHandler.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\GPData.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\GPFile.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\GPKey.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\groundbmp.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\grounddata.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\IM2File.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\InfElem.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\InfScope.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\lightdata.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\Line.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\LiSPSM.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\MAFile.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\matrix2.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\mcache.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\MCHandler.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\MMotElem.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\MMotKey.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\MOEAnim.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\MOEAnimHandler.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\MOEEHelper.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\MOEFile.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\MOEKey.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\morph.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\mothandler.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\motionctrl.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\motioninfo.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\motionpoint.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\motionpoint2.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\mqoface.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\mqofile.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\mqomaterial.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\mqoobject.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\MState.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\namebank.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\NaviLine.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\NaviPoint.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\npcleardata.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\part.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\PCoef.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\pickdata.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\planes.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\polymesh.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\polymesh2.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\qhandler.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\quafile.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\quaternion.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\quaternion2.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\Rtsc.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\shdelem.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\shdhandler.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\sigfile.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\SndAnim.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\SndAnimHandler.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\SndConv.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\SndFile.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\SndFrame.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\SndFullFrame.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\SndKey.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\SndPath.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\SndSetFile.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\SPParam.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\SymmOpe.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\texbank.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\TexChange.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\TexChangePt.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\TexKey.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\TexKeyPt.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\Toon1Params.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\treeelem2.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\treehandler2.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\Vec3List.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\vecmesh.cpp" />
+    <ClCompile Include="..\..\..\disp3\CPP\XFont.cpp" />
+    <ClCompile Include="d3dapp.cpp" />
+    <ClCompile Include="d3dfont.cpp" />
+    <ClCompile Include="d3dutil.cpp" />
+    <ClCompile Include="TraQ.cpp" />
+    <ClCompile Include="txtsetting.cpp" />
+    <ClCompile Include="XAudioSource\MultiWave.cpp" />
+    <ClCompile Include="XAudioSource\XAudio.cpp" />
+    <ClCompile Include="XAudioSource\XAudioFadeEffect.cpp" />
+    <ClCompile Include="XAudioSource\XAudioVorbis.cpp" />
+    <ClCompile Include="XAudioSource\XAudioWave.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="easy3d.h" />
+    <ClInclude Include="PmCipher\blowfish.h" />
+    <ClInclude Include="PmCipher\Panda.h" />
+    <ClInclude Include="PmCipher\PmCipher.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="XAudioSource\audiocoef.h" />
+    <ClInclude Include="XAudioSource\MultiWave.h" />
+    <ClInclude Include="XAudioSource\SampleAPOBase.h" />
+    <ClInclude Include="XAudioSource\XAudio.h" />
+    <ClInclude Include="XAudioSource\XAudioFadeEffect.h" />
+    <ClInclude Include="XAudioSource\XAudioVorbis.h" />
+    <ClInclude Include="XAudioSource\XAudioWave.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="e3dhsp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\disp3\fx\rcdata4.bin" />
+    <None Include="..\..\..\disp3\FX\sigshaderb4_20spot.fxo" />
+    <None Include="dummy.qua" />
+    <None Include="ReadMe.txt" />
+    <None Include="..\..\..\disp3\FX\sigshaderb4_20.fxo" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
